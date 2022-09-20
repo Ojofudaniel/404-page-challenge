@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap');
+/* 
+font-family: 'Inconsolata', monospace;
+font-family: 'Space Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+/* Typography */
+.top-title-404-title{
+    color: #333333;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+
+.bad-news-title{
+    color: #333333;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+
+.text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #4F4F4F;
+    line-height: 36px;
+    letter-spacing: -3px;
+    
+}
+
+.container-content{
+    max-width: 90%;
+   margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .col-image{
+    width: 30%;
+}
+.col-welcome-text{
+    width: 65%;
+} */
+
+.top-title-404-title{
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-bottom: 2.5em;
+}
+
+.col-image{
+    margin-bottom: 3.5em;
+}
+
+.bad-news-title{
+    margin-bottom: .5em;
+}
+
+.text{
+    margin-bottom:3em ;
+}
+
+.btn{
+    background-color: #333333;
+    border: none;
+    margin-bottom: 10em;
+
+}
+
+.btn:hover{
+    background-color: #4F4F4F;
+}
+
+.btn a{
+    display: inline-block;
+    padding: 1.5em 2em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .875rem;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer p{
+    color: #BDBDBD;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+@media screen and (min-width:850px) {
+    .container-flex{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .col-image{
+        width: 35%;
+    }
+
+    .col-welcome-text{
+        width: 55%;
+    }
+}
